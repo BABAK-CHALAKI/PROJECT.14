@@ -1,0 +1,144 @@
+
+
+img{
+    width: 100%;
+    
+}
+
+#login{
+    width:30%;
+    height:4%;
+    background-color: rgb(41, 196, 41);
+    position: absolute;
+    margin-top: -92%;
+    margin-left: 33%;
+    padding-top: 0.5%;
+   border-radius: 50px 50px 0px 0px;
+   font-size: large;
+   color: white;
+}
+
+#login:hover{
+    background-color: rgb(85, 226, 85);
+}
+
+#login2{
+    width:30%;
+    height:110%;
+    background-color:white;
+    position: absolute;
+    padding-top: 0.5%;
+    margin-top: -89%;
+    margin-left: 33%;
+    font-size: large;
+    display: none; 
+}
+
+#position1{
+    padding:1%;
+    margin-top: 2%;
+    color: rgb(59, 58, 58);
+}
+
+#position2{
+     padding:1%;
+    padding:1%;
+    margin-top:-12%;
+    color: rgb(59, 58, 58);
+}
+.switch{
+    position: absolute;
+    margin-top: -14%;
+    margin-left: -32%;
+}
+
+
+hr{
+    margin-top: -15px;
+}
+
+
+#pedar{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 400px;
+    background-color: white;
+}
+.son{
+    border-width: 0.5px;
+    flex: 1;
+}
+
+input{
+    width: 90%;
+    height: 25%;
+    padding-bottom: 10px;
+    padding-top:5px ;
+    font-size: large;
+    text-align: right;
+    height: 5vb;
+    box-sizing: border-box;
+}
+.son h5{
+  padding-right: 5px;  
+  font-size: x-large;
+  margin-top:20px;
+}
+
+
+.last_btn{
+    width: 4%;
+    display:inline;
+    margin-left:88%;
+    z-index: 2;
+}
+
+h4{
+    width: 10px;
+    margin-left: 67%;
+    margin-top: -6%;
+    z-index: 1;
+}
+
+#h44{
+   margin-top:-7%;
+   margin-left:-12%;
+   font-size: large;   
+}
+
+#son2 h5{
+margin-right: 5%;
+}
+#son2 {
+    display: none;
+}
+
+button{
+    width: 25px;
+    height:25px;
+   border-width:1px;
+}
+
+
+#child-list{
+    background-color: white;
+    padding:20px;
+    margin-top: 20px;
+}
+
+#submit{
+    background-color: rgb(19, 116, 155);
+   width: 90%;
+   
+   
+    margin-top: 20px;
+    color: white;
+    display: inline;
+}
+
+#divsub{
+    background-color: white;
+    padding:20px;
+    
+}

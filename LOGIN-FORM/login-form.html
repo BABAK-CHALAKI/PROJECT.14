@@ -1,0 +1,69 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="android" content="تمرین چهاردهم, login_form">
+    <meta name="auther" content="Babak chalacki">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="login.css">
+    <title>login</title>
+</head>
+<body>
+    
+<img src="Sky_blue_square.jpg" alt="wood">
+<center><div id="login">ثبت نام</div></center>
+<center><div id="login2">
+<h5  id="position1" align="left">حالت تاریک</h5>
+<label class="switch">
+    <input id="switch_btn" type="radio">
+    
+</label>
+<h5  id="position2" align="right">ثبت نام</h5>
+
+<hr>
+
+
+<div id="pedar">
+    <div class="son"><h5 align="right">نام</h5>
+
+        <input  type="text" placeholder="full name">
+    </div>
+    <div class="son">
+        <h5 align="right">ایمیل</h5>
+
+        <input  type="email" placeholder="Enter email"><br><br>
+        ایمیل شما به کاربران نمایش داده نمیشود
+    </div>
+    <div class="son">
+        <h5 align="right">کلمه عبور</h5>
+
+        <input  type="password" placeholder="password">
+    </div>
+</div>
+
+<input id="not_yet" class="last_btn" type="radio" name="x"><h4>مجرد</h4>
+<input class="last_btn" id="marry" type="radio" name="x"><h4>متاهل</h4>
+
+<div id="son2">
+  <h5 align="right">  نام همسر</h5>
+    <input type="text" placeholder="full name">
+</div>
+
+<div><input id="yep" style="display: inline;"class="last_btn"type="checkbox">
+    <div id="h44"><h4 style="display: inline;">دارای فرزند</h4></div></div>
+
+    <div id="havekid" style="margin:10px 0px 0px 230px; display: none;">
+        <button class="childs" id="add" type="button" onclick="add_child()" style="background-color: green;" id="pelas">+</button>
+        <button  class="childs" id="delet" type="button" onclick="delete_child()" style="background-color: red;" id="minus">-</button>فرزندان
+    </div>
+    
+    <div  id="child-list">
+       
+    </div>
+       
+
+    <div id="divsub"><button id="submit" type="submit">ثبت نام</button></div>
+</div></center>
+ <script src="login.js" ></script>
+</body>
+</html>
